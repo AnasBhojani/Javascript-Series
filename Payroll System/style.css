@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.inputs {
+  padding: 0px 10px;
+  width: 50%;
+  margin: auto;
+}
+.inputs label {
+  font-size: 20px;
+  font-weight: 500;
+}
+.inputs input {
+  border-radius: 10px;
+  border: 2px solid steelblue;
+  padding: 15px 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+.inputs input::placeholder {
+  font-weight: 500;
+  font-style: italic;
+}
+.inputs input:hover {
+  border: none;
+  font-weight: bold;
+  transition: 0.7s ease-in-out;
+  border-radius: 30px;
+}
+.inputs button{
+  padding: 5px 30px;
+ margin: 2rem 15rem;
+ border: none;
+ background-color: steelblue;
+ font-size: 18px;
+ font-weight: 500;
+ border-radius: 20px;
+ cursor: pointer;
+}
+.Delete{
+  padding: 10px 30px;
+  background-color: red;
+   border: none;
+   margin: 10px 20px;
+    border-radius: 20px;
+}
+.listitems{
+  text-align: center;
+  padding: 10px;
+}

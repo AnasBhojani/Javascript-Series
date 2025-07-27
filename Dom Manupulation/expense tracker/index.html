@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bae1d8da68.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<h2>Expense Tracker</h2>
+<div class="balance">
+<h3 id="currentbalance">Your Balance</h3>
+<h1 id="my-balance">$0</h1>
+</div>
+
+<div class="plus-minus-amount">
+
+    <div class="incomes">
+        <h4 >Income</h4>
+        <h1 id="income">$0</h1>
+    </div >
+    <div class="expenses">
+        <h4>Expense</h4>
+         <h1  id="expense">$0</h1>
+    </div>
+</div>
+
+<h3 style="text-align: center; margin-top:3rem ; font-weight: 700; color: rebeccapurple;">History</h3>
+<ul id="list" style="font-size: 18px;"></ul>
+<div class="form-control">
+
+    <label for="Balance" style="font-weight: 600;">Enter Your Balance</label><br>
+    <input type="number" placeholder="Enter The Balance" id="totalBalance" style="margin-top: 1rem; width: 100%; padding: 10px 10px; border-radius: 10px; border: 1px solid rebeccapurple;margin-bottom: 1rem;">
+<h3 id="head">Add A New Transaction</h3>
+<div class="trans-div">
+<label for="name" id="transaction">Transaction Name</label><br>
+<input type="text" placeholder="Enter The Transaction Name" id="trans-ph" ><br>
+</div>
+
+<div class="amount-div">
+<label for="amount" id="amount">Amount</label><br>
+<input type="number" placeholder="Enter The Amount" id="amount-ph"><br>
+</div>
+<button id="submit">Submit</button>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

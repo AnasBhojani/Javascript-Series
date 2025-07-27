@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Append + Delete</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    input, button { padding: 8px; font-size: 16px; }
+    ul { margin-top: 20px; list-style: none; padding: 0; }
+    li { margin-bottom: 8px; padding: 5px; background: #f0f0f0; border-radius: 4px; display: flex; justify-content: space-between; align-items: center; }
+    .delete-btn {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 4px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Todo List</h2>
+
+<input type="text" id="itemInput" placeholder="Enter item">
+<button id="addBtn">Add</button>
+
+<ul id="list"></ul>
+
+<script>
+  const input = document.getElementById("itemInput");
+  const button = document.getElementById("addBtn");
+  const list = document.getElementById("list");
+
+  button.addEventListener("click", () => {
+    const text = input.value.trim();
+
+    if (text !== "") {
+      const li = document.createElement("li");
+      li.textContent = text;
+
+      const delBtn = document.createElement("button");
+      delBtn.textContent = "Delete";
+      delBtn.className = "delete-btn";
+      
+
+      delBtn.addEventListener("click", () => {
+        li.remove(); // 🗑️ Remove the list item
+      });
+
+      li.appendChild(delBtn); // 👈 Add delete button to the list item
+      list.appendChild(li);   // 👈 Add list item to the list
+
+      input.value = ""; // Clear input
+    } else {
+      alert("Please enter something!");
+    }
+  });
+</script>
+
+</body>
+</html>
+ -->
