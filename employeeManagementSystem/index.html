@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bae1d8da68.js" crossorigin="anonymous"></script>
+    <title>Employee Management System</title>
+</head>
+<body>
+    <h2>Employee Management System</h2>
+    <i class="fa-solid fa-bars-progress"></i>
+    <div class="sidenav">
+        
+        <i class="fa-solid fa-xmark"></i>
+<ul class="navlist">
+    <li class="listitems"><i class="fa-solid fa-house"></i>Home</li>
+    <li class="listitems"><i class="fa-solid fa-id-badge"></i>Profile</li>
+    <li class="listitems"><i class="fa-solid fa-palette"></i>DashBoard</li>
+    <li class="listitems"><i class="fa-solid fa-building"></i>Departments</li>
+    <li class="listitems"><i class="fa-solid fa-users"></i>Employees</li>
+    <li class="listitems" id="last"><i class="fa-solid fa-user-tie" ></i>Users</li>
+</ul>
+
+
+
+    </div>
+
+    <div class="sections">
+
+<div class="boxes">
+  <div class="info">
+        <h3>Total Employees</h3>
+    </div>
+</div>
+<div class="boxes">
+    <div class="info">
+        <h3>Departments</h3>
+        <p></p>
+    </div>
+</div>
+<div class="boxes">
+   <div class="info">
+        <h3>Present Employee</h3>
+        <p></p>
+    </div>
+</div>
+<div class="boxes">
+    <div class="info">
+        <h3>On Leave Employee</h3>
+        <p></p>
+    </div>
+</div>
+
+    </div>
+
+<div class="employee-container">
+<h3>Employees Details</h3>
+<div class="employee-details">
+<form action="">
+   <label for="name">Name</label>
+   <input type="text" placeholder="Enter Your Name" id="name">
+
+   <label for="email">Email</label>
+   <input type="email" placeholder="Enter Your Email" id="email">
+
+   <label for="depart">Department</label>
+   <input type="text" placeholder="Enter Your Department Name" id="depart">
+
+   <label for="phone">Phone Number</label>
+   <input type="number" placeholder="Enter Your Phone Number" id="phone">
+
+   <label for="phone">Monthly Salary</label>
+   <input type="number" placeholder="Enter Your Monthly Salary" id="salary">
+
+
+
+<button class="add">Create/Add</button>
+
+   
+   </form>
+   
+</div>
+
+</div>
+<h2 style="text-align: center; font-size: 30px; margin-left: 20%;">All Employees Information</h2>
+<table class="AllEmployees" border="2">
+
+<div class="buttons">
+<button>Name</button>
+<button>Email</button>
+<button>Phone Number</button>
+<button>Department</button>
+<button>Salary</button>
+<button>Status</button>
+
+</div>
+
+
+<div class="AllInfo">
+ 
+  <div class="list-container"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

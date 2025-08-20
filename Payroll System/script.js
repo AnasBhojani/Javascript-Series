@@ -39,16 +39,6 @@ function AddEmployees(){
    /*  UpdateUI(); */
 
 }
-/* function UpdateUI(){
-    let Netpay=0;
-
-    Employees.forEach((emp)=>{
-        Netpay+=emp.MonthlySalary+emp.Transport+emp.Medical;
-
-    });
-
-   
-   /*  NetTotal.textContent=`The Total Net Pay Of Employee is:${Netpay}` */
 
  
 function AddEmpToList(EmpDetails){

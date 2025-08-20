@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+nav{
+    margin: 1rem 2rem;
+    border-radius: 20px;
+padding: 2rem 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: aqua;
+}
+.Navlist{
+    display: flex;
+list-style: none;
+
+}
+.listitems{
+padding: 0px 2rem;
+font-size: 20px;
+font-weight: 800;
+}
+.sticky{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    animation: stick ease alternate 3s ;
+}
+@keyframes stick {
+    from{
+        transform: translateY(-100px);
+        transition: all 0.4s ease;
+    }
+    to{
+transform: translateY(0);
+  transition: all 0.4s ease;
+
+    }
+}

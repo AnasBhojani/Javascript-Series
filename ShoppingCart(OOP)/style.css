@@ -1,0 +1,202 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.nav{
+    margin-top: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    color: orangered;
+    font-size: 1.4rem;
+}
+.items i{
+    margin: 0px 5px;
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.cart-count{
+    background-color: orangered;
+    color: white;
+    left: 70.5%;
+    top: -60%;
+    border-radius: 100%;
+    padding: 2px 8px;
+    position: absolute;
+    font-size: 1rem;
+}
+#search {
+    padding: 15px 40px;
+    width: 40%;              /* makes it 40% of the page */
+    margin: 2rem auto;       /* centers it horizontally */
+    display: block;          /* needed for margin:auto to work */
+    border-radius: 15px;
+    border: 1px solid orangered;
+    box-sizing: border-box;  /* prevents padding from breaking width */
+}
+
+h1{
+   
+    font-family: "Playwrite AU SA", cursive;
+    text-align: center;
+    margin-top: 1rem;
+     font-weight: 800;
+     color: orangered;
+    font-size: 3rem;
+}
+h2{
+    font-family: "Playwrite AU SA", cursive;
+    margin: 1rem 4rem;
+ text-decoration: underline;
+    font-size: 2rem;
+    font-weight: 500;
+   
+   
+}
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1.4rem;
+  background-color: rgba(211, 211, 211, 0.151);
+    gap: 2rem;
+}
+
+.product1{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.details h4{
+    font-weight: 800;
+}
+.button-reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    gap: 1rem;
+
+}
+.button-reviews button{
+
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: grabbing;
+}
+.button-reviews i{
+    font-size: 1.1rem;
+    margin: 0px 5px;
+}
+.add-to-cart{
+    background-color: orangered;
+  
+}
+.view-reviews{
+    background-color: blue;
+}
+.error-msg{
+    color: red;
+}
+.product-details{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: rgba(211, 211, 211, 0.151);
+    border-radius: 8px;
+    gap: 3rem;
+}
+.product-bio{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.product-bio h4{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.product-bio span{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    border: 1px solid orangered;
+    padding: 3px 10px;
+    border-radius: 5px;
+
+}
+.addtocart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.addtocart i{
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+   background-color: rgba(211, 211, 211, 0.151);
+}
+.addtocart button{
+    background-color: red;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+}
+.feedback{
+    padding: 2rem; 
+
+}
+.client-reviews{
+  background: rgba(255, 68, 0, 0.849);
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+  
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.client1{
+    display: flex;
+  
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.151);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.main-container{
+    padding: 10px;
+   
+}
