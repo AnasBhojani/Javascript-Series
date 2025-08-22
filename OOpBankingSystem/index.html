@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bae1d8da68.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Banking System</title>
+</head>
+<body>
+    
+
+<h1>Welcome To The Website Of OOP Banking System</h1>
+
+<a href="/OOpBankingSystem/accounts.html"><button id="AccountDetails"><i class="fa-solid fa-users" style="margin: 0px 5px;"></i>AccountDetails</button></a>
+<div class="signup" id="signup">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required placeholder="Enter your username">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required placeholder="Enter your password">
+
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password">
+
+    <label for="phone">Phone Number:</label>
+    <input type="number" id="phone" name="phone" required placeholder="Enter your phone number">
+
+    <label for="cnic">CNIC:</label>
+    <input  id="cnic" name="cnic" required placeholder="Enter your CNIC">
+
+    <label for="balance">Initial Balance:</label>
+    <input type="number" id="balance" name="balance" required placeholder="Enter your initial balance">
+
+    <label for="account-type">Account Type:</label>
+    <select id="account-type" name="account-type" required>
+        <option value="">Select An Account</option>
+        <option value="checking">Checking</option>
+        <option value="savings">Savings</option>
+    </select>
+
+    <button id="create" onclick="CreateAccount()">Create Account</button>
+</div>
+<div class="dep-withdraw">
+<div class="deposit" id="deposit">
+    <label for="account">Select Account:</label>
+    <select id="account" name="account" required>
+        <option value="" disabled selected>Select an account</option>
+        <option value="checking">Checking</option>
+        <option value="savings">Savings</option>
+    </select>
+
+
+    <label for="name">Enter The Name in which Account You Want To Deposit:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount" required>
+
+   
+
+    <button id="deposit-btn" onclick="Deposit()">Deposit</button>
+</div>
+
+<div class="withdraw" id="withdraw">
+    <label for="account">Select Account:</label>
+    <select id="account" name="account" required>
+        <option value="" disabled selected>Select an account</option>
+        <option value="checking">Checking</option>
+        <option value="savings">Savings</option>
+    </select>
+
+
+    <label for="name">Enter The Name in which Account You Want To Deposit:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount" required>
+
+   
+
+    <button id="withdraw-btn">Withdraw</button>
+</div>
+
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+   
+}
+h1{
+    text-align: center;
+    color: rgba(0, 132, 255, 0.849);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.signup{
+    max-width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+ input{
+    width: 100%;
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input:focus{
+    border-color: rgba(0, 132, 255, 0.849);
+    outline: none;
+}
+.signup label{
+    font-weight: 700;
+}
+select{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius:10px;
+    text-align: center;
+    font-weight: 600;
+}
+.signup button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 132, 255, 0.849);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.dep-withdraw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+    margin: 0 auto;
+}
+.deposit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   flex-direction: column;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;   
+}
+.withdraw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  flex-direction: column;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;  
+}
+.deposit button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 132, 255, 0.849);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.withdraw button{
+     width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 132, 255, 0.849);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#AccountDetails{
+   margin: 1rem 2rem;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgba(0, 132, 255, 0.849);
+    color: rgba(0, 132, 255, 0.849);
+}
